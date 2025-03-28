@@ -11,6 +11,21 @@ const nextConfig = {
         hostname: "hebbkx1anhila5yf.public.blob.vercel-storage.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "goodneighborcenter.statefarm.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.paycom.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        pathname: "/**",
+      },
     ],
   },
 }
