@@ -17,49 +17,50 @@ module.exports = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: {
+          DEFAULT: "hsl(var(--border, 220 13% 91%))", // Added a fallback HSL value
+        },
+        input: "hsl(var(--input, 220 13% 80%))", // Fallback value for safety
+        ring: "hsl(var(--ring, 220 13% 70%))",
+        background: "hsl(var(--background, 0 0% 100%))",
+        foreground: "hsl(var(--foreground, 0 0% 10%))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(var(--primary, 240 100% 50%))",
+          foreground: "hsl(var(--primary-foreground, 0 0% 100%))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(var(--secondary, 300 100% 50%))",
+          foreground: "hsl(var(--secondary-foreground, 0 0% 100%))",
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "hsl(var(--destructive, 0 100% 50%))",
+          foreground: "hsl(var(--destructive-foreground, 0 0% 100%))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "hsl(var(--muted, 0 0% 60%))",
+          foreground: "hsl(var(--muted-foreground, 0 0% 40%))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(var(--accent, 200 100% 50%))",
+          foreground: "hsl(var(--accent-foreground, 0 0% 100%))",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(var(--popover, 0 0% 95%))",
+          foreground: "hsl(var(--popover-foreground, 0 0% 20%))",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(var(--card, 0 0% 90%))",
+          foreground: "hsl(var(--card-foreground, 0 0% 10%))",
         },
         neon: {
           purple: "#b026ff",
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        lg: "var(--radius, 8px)",
+        md: "calc(var(--radius, 8px) - 2px)",
+        sm: "calc(var(--radius, 8px) - 4px)",
       },
     },
   },
 }
-
