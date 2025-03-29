@@ -8,13 +8,13 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 bg-[hsl(260, 20%, 5%)] border-b border-[hsla(270,80%,60%,0.1)]">
       <nav className="container flex items-center justify-center h-16">
         {/* Centered Navigation */}
-        <div className="flex items-center justify-center gap-1">
+        <div className="flex items-center justify-center gap-10">
           {/* Logo */}
           <Link href="/">
             <Button
               variant="ghost"
-              className="ml-2 bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white px-6"
-            >
+              size="lg"
+              className="bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white">
               AIMD
             </Button>
           </Link>
@@ -22,9 +22,9 @@ export function SiteHeader() {
           {/* Navigation Links */}
           <Link href="/about">
             <Button 
-              variant="ghost" 
-              className="ml-2 bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white px-6"
-            >
+              variant="ghost"
+              size="lg"
+              className="bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white">
               About
             </Button>
           </Link>
@@ -32,8 +32,8 @@ export function SiteHeader() {
           <Link href="/events">
             <Button 
               variant="ghost" 
-              className="ml-2 bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white px-6"
-            >
+              size="lg"
+              className="bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white">
               Events
             </Button>
           </Link>
@@ -41,19 +41,20 @@ export function SiteHeader() {
           <Link href="/officers">
             <Button 
               variant="ghost" 
-              className="ml-2 bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white px-6"
-            >
+              size="lg"
+              className="bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white">
               Officers
             </Button>
           </Link>
           
           {/* Join Now Button */}
           <Link href="/apply">
-            <Button className="ml-2 bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white px-6">
+            <Button size="lg" className="bg-[hsl(270,100%,70%)] hover:bg-[hsl(270,100%,60%)] text-white">
               Join Now
             </Button>
           </Link>
-            <div className="flex justify-center md:justify-start space-x-4">
+
+            <div className="flex justify-center md:justify-start space-x-4 ml-4">
                 <Link
                     href="https://www.instagram.com/aimd_utd/"
                     target="_blank"

@@ -1,36 +1,14 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Beaker, Laptop } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { SiteHeader } from "@/components/site-header"
+import { Button } from "@/components/ui/button"
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background purple-gradient">
-      <header className="border-b border-primary/20">
-        <nav className="container flex items-center justify-between h-16">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            AIMD
-          </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/about" className="text-sm text-primary">
-              About
-            </Link>
-            <Link href="/events" className="text-sm hover:text-primary transition-colors">
-              Events
-            </Link>
-            <Link href="/officers" className="text-sm hover:text-primary transition-colors">
-              Officers
-            </Link>
-            <Link href="/apply">
-              <Button variant="secondary" className="bg-primary/10 hover:bg-primary/20 text-primary">
-                Join Now
-              </Button>
-            </Link>
-          </div>
-        </nav>
-      </header>
-
+      <SiteHeader />
       <main className="container py-12">
         <section className="mb-16">
           <div className="flex flex-col items-center justify-center mb-8">

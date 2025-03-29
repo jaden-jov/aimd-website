@@ -36,7 +36,7 @@ const sponsors = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background purple-gradient">
+    <div className="bg-background purple-gradient">
       <SiteHeader />
       <main>
         {/* Hero Section */}

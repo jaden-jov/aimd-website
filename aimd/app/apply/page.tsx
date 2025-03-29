@@ -8,34 +8,12 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { ClipboardCheck, Send } from "lucide-react"
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
+import { SiteHeader } from "@/components/site-header"
 
 export default function ApplyPage() {
   return (
     <div className="min-h-screen bg-background purple-gradient">
-      <header className="border-b border-primary/20">
-        <nav className="container flex items-center justify-between h-16">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            AIMD
-          </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/about" className="text-sm hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link href="/events" className="text-sm hover:text-primary transition-colors">
-              Events
-            </Link>
-            <Link href="/officers" className="text-sm hover:text-primary transition-colors">
-              Officers
-            </Link>
-            <Link href="/apply">
-              <Button variant="secondary" className="bg-primary/10 hover:bg-primary/20 text-primary">
-                Join Now
-              </Button>
-            </Link>
-          </div>
-        </nav>
-      </header>
-
+      <SiteHeader />
       <main className="container py-12">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">

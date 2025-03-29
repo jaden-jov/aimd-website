@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import Link from "next/link"
+import { SiteHeader } from "@/components/site-header"
 
 const teams = [
   {
@@ -98,30 +98,7 @@ const teams = [
 export default function OfficersPage() {
   return (
     <div className="min-h-screen bg-background purple-gradient">
-      <header className="border-b border-primary/20">
-        <nav className="container flex items-center justify-between h-16">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            AIMD
-          </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/about" className="text-sm hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link href="/events" className="text-sm hover:text-primary transition-colors">
-              Events
-            </Link>
-            <Link href="/officers" className="text-sm text-primary">
-              Officers
-            </Link>
-            <Link href="/apply">
-              <Button variant="secondary" className="bg-primary/10 hover:bg-primary/20 text-primary">
-                Join Now
-              </Button>
-            </Link>
-          </div>
-        </nav>
-      </header>
-
+      <SiteHeader />
       <main className="container py-12 px-4">
         <h1 className="text-6xl font-bold mb-16 text-primary/90 text-center">Meet the Team</h1>
 
