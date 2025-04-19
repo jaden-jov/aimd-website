@@ -13,14 +13,14 @@ const teams = [
         image: null,
       },
       {
-        name: "Varun Bhapathiraju",
+        name: "Varun Bhupathiraju",
         position: "Vice President",
         initials: "VB",
         image: null,
       },
       {
         name: "Rakshitha Kishore",
-        position: "Treasurer",
+        position: "Secretary",
         initials: "RK",
         image: null,
       },
@@ -43,32 +43,32 @@ const teams = [
     members: [
       {
         name: "Chris Abraham",
-        position: "Technical Member",
+        position: "Technical",
         initials: "CA",
         image: "/images/chris-abraham.png",
         imagePosition: "object-[center_top]", // Custom positioning for Chris's image
       },
       {
         name: "Sajid Memon",
-        position: "Technical Member",
+        position: "Technical",
         initials: "SM",
         image: null,
       },
       {
-        name: "Ali Kghorbani",
-        position: "Technical Member",
-        initials: "AK",
+        name: "Ali Ghorbani",
+        position: "Technical",
+        initials: "AG",
         image: null,
       },
       {
         name: "Jaden Jovan",
-        position: "Technical Member",
+        position: "Technical",
         initials: "JJ",
         image: null,
       },
       {
         name: "Harshavarthan Mathapti",
-        position: "Technical Member",
+        position: "Technical",
         initials: "HM",
         image: null,
       },
@@ -79,19 +79,19 @@ const teams = [
     members: [
       {
         name: "Ishayu Gupta",
-        position: "Industry Member",
+        position: "Industry",
         initials: "IG",
         image: null,
       },
       {
         name: "Abanish Khadka",
-        position: "Industry Member",
+        position: "Industry",
         initials: "AK",
         image: null,
       },
       {
         name: "Akhil Nelapolu",
-        position: "Industry Member",
+        position: "Industry",
         initials: "AN",
         image: null,
       },
@@ -102,19 +102,19 @@ const teams = [
     members: [
       {
         name: "Aarya Oswal",
-        position: "Marketing Member",
+        position: "Marketing",
         initials: "AO",
         image: null,
       },
       {
         name: "Rohini Viswanatham",
-        position: "Marketing Member",
+        position: "Marketing",
         initials: "RV",
         image: null,
       },
       {
         name: "Haly Shah",
-        position: "Marketing Member",
+        position: "Marketing",
         initials: "HS",
         image: null,
       },
@@ -125,25 +125,25 @@ const teams = [
     members: [
       {
         name: "Srinidhi Vajinepalli",
-        position: "Operations Member",
+        position: "Operations",
         initials: "SV",
         image: null,
       },
       {
-        name: "Aarnav Lanka",
-        position: "Operations Member",
+        name: "Arnav Lanka",
+        position: "Operations",
         initials: "AL",
         image: null,
       },
       {
         name: "Ishir Chandra",
-        position: "Operations Member",
+        position: "Operations",
         initials: "IC",
         image: null,
       },
       {
         name: "Aamir Khan",
-        position: "Operations Member",
+        position: "Operations",
         initials: "AK",
         image: null,
       },
