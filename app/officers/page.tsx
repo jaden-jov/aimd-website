@@ -17,15 +17,15 @@ const teams = [
         name: "Varun Bhupathiraju",
         position: "Vice President",
         initials: "VB",
-        image: "/images/varun-bhupathiraju.png",
-        imagePosition: "object-[center_20%] scale-100", // Adjusted positioning for Varun's image to zoom out
+        image: "/images/varun-bhupathiraju.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Updated positioning for Varun's new image
       },
       {
         name: "Rakshitha Kishore",
         position: "Secretary",
         initials: "RK",
         image: "/images/rakshitha-kishore.jpeg",
-        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Rakshitha's image
+        imagePosition: "object-[center_30%] scale-125", // Zoomed in more on Rakshitha's face
       },
       {
         name: "Akshith Akula",
@@ -71,7 +71,8 @@ const teams = [
         name: "Jaden Jovan",
         position: "Technical",
         initials: "JJ",
-        image: null,
+        image: "/images/jaden-jovan.jpeg",
+        imagePosition: "object-[center_30%] scale-80", // Zoomed out on Jaden's image
       },
       {
         name: "Harshavarthan Mathapti",
@@ -90,7 +91,7 @@ const teams = [
         position: "Industry",
         initials: "IG",
         image: "/images/ishayu-gupta.png",
-        imagePosition: "object-[center_top]", // Custom positioning for Ishayu's image
+        imagePosition: "object-[center_15%] scale-100", // Moved Ishayu's face up in the image
       },
       {
         name: "Abanish Khadka",
