@@ -10,31 +10,36 @@ const teams = [
         name: "Zaina Ali",
         position: "President",
         initials: "ZA",
-        image: null,
+        image: "/images/zaina-ali.jpeg",
+        imagePosition: "object-[center_35%] scale-100", // Adjusted positioning for Zaina's image to zoom out
       },
       {
         name: "Varun Bhupathiraju",
         position: "Vice President",
         initials: "VB",
-        image: null,
+        image: "/images/varun-bhupathiraju.png",
+        imagePosition: "object-[center_20%] scale-100", // Adjusted positioning for Varun's image to zoom out
       },
       {
         name: "Rakshitha Kishore",
         position: "Secretary",
         initials: "RK",
-        image: null,
+        image: "/images/rakshitha-kishore.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Rakshitha's image
       },
       {
         name: "Akshith Akula",
         position: "Director of Medicine",
         initials: "AA",
-        image: null,
+        image: "/images/akshith-akula.jpeg",
+        imagePosition: "object-[center_30%]", // Custom positioning for Akshith's image
       },
       {
         name: "Arnav Mehta",
         position: "Director of Engineering",
         initials: "AM",
-        image: null,
+        image: "/images/arnav-mehta.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Arnav's image
       },
     ],
   },
@@ -52,13 +57,15 @@ const teams = [
         name: "Sajid Memon",
         position: "Technical",
         initials: "SM",
-        image: null,
+        image: "/images/sajid-memon.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Sajid's image
       },
       {
         name: "Ali Ghorbani",
         position: "Technical",
         initials: "AG",
-        image: null,
+        image: "/images/ali-ghorbani.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Updated positioning for Ali's new image
       },
       {
         name: "Jaden Jovan",
@@ -70,7 +77,8 @@ const teams = [
         name: "Harshavarthan Mathapti",
         position: "Technical",
         initials: "HM",
-        image: null,
+        image: "/images/harshavarthan-mathapti.jpeg",
+        imagePosition: "object-[center_25%] scale-100", // Custom positioning for Harshavarthan's image
       },
     ],
   },
@@ -81,19 +89,22 @@ const teams = [
         name: "Ishayu Gupta",
         position: "Industry",
         initials: "IG",
-        image: null,
+        image: "/images/ishayu-gupta.png",
+        imagePosition: "object-[center_top]", // Custom positioning for Ishayu's image
       },
       {
         name: "Abanish Khadka",
         position: "Industry",
         initials: "AK",
-        image: null,
+        image: "/images/abanish-khadka.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Abanish's image
       },
       {
         name: "Akhil Nelapolu",
         position: "Industry",
         initials: "AN",
-        image: null,
+        image: "/images/akhil-nelapolu.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Akhil's image
       },
     ],
   },
@@ -104,19 +115,22 @@ const teams = [
         name: "Aarya Oswal",
         position: "Marketing",
         initials: "AO",
-        image: null,
+        image: "/images/aarya-oswal.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Aarya's image
       },
       {
         name: "Rohini Viswanatham",
         position: "Marketing",
         initials: "RV",
-        image: null,
+        image: "/images/rohini-viswanatham.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Rohini's image
       },
       {
         name: "Haly Shah",
         position: "Marketing",
         initials: "HS",
-        image: null,
+        image: "/images/haly-shah.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Haly's image
       },
     ],
   },
@@ -127,25 +141,29 @@ const teams = [
         name: "Srinidhi Vajinepalli",
         position: "Operations",
         initials: "SV",
-        image: null,
+        image: "/images/srinidhi-vajinepalli.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Srinidhi's image
       },
       {
         name: "Arnav Lanka",
         position: "Operations",
         initials: "AL",
-        image: null,
+        image: "/images/arnav-lanka.png",
+        imagePosition: "object-[center_top]", // Custom positioning for Arnav's image
       },
       {
         name: "Ishir Chandra",
         position: "Operations",
         initials: "IC",
-        image: null,
+        image: "/images/ishir-chandra.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Ishir's image
       },
       {
         name: "Aamir Khan",
         position: "Operations",
         initials: "AK",
-        image: null,
+        image: "/images/aamir-khan.jpeg",
+        imagePosition: "object-[center_25%] scale-100", // Custom positioning for Aamir's image
       },
     ],
   },
@@ -193,7 +211,7 @@ export default function OfficersPage() {
                         <AvatarImage
                           src={member.image || "/placeholder.svg"}
                           alt={member.name}
-                          className={`object-cover scale-110 ${member.imagePosition || ""}`}
+                          className={`object-cover ${member.imagePosition?.includes("scale") ? member.imagePosition : `scale-110 ${member.imagePosition || ""}`}`}
                         />
                       ) : (
                         <AvatarFallback className="text-2xl bg-background">{member.initials}</AvatarFallback>
