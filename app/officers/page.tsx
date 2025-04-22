@@ -64,22 +64,22 @@ const teams = [
         name: "Ali Ghorbani",
         position: "Technical",
         initials: "AG",
-        image: "/images/ali-ghorbani.jpeg",
-        imagePosition: "object-[center_30%] scale-100", // Updated positioning for Ali's new image
+        image: "/images/ali-ghorbani.png",
+        imagePosition: "object-[center_55%] scale-100", // Updated positioning for Ali's new image
       },
       {
         name: "Jaden Jovan",
         position: "Technical",
         initials: "JJ",
         image: "/images/jaden-jovan.jpeg",
-        imagePosition: "object-[center_30%] scale-80", // Zoomed out on Jaden's image
+        imagePosition: "object-[center_0%] scale-80", // Zoomed out on Jaden's image
       },
       {
         name: "Harshavarthan Mathapti",
         position: "Technical",
         initials: "HM",
         image: "/images/harshavarthan-mathapti.jpeg",
-        imagePosition: "object-[center_25%] scale-100", // Custom positioning for Harshavarthan's image
+        imagePosition: "object-[center_top_25%]", // Custom positioning for Harshavarthan's image
       },
     ],
   },
@@ -91,7 +91,7 @@ const teams = [
         position: "Industry",
         initials: "IG",
         image: "/images/ishayu-gupta.png",
-        imagePosition: "object-[center_15%] scale-100", // Moved Ishayu's face up in the image
+        imagePosition: "object-[center_30%] scale-100", // Moved Ishayu's face up in the image
       },
       {
         name: "Abanish Khadka",
