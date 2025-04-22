@@ -56,7 +56,7 @@ export function SiteFooter() {
               <span className="sr-only">Instagram</span>
             </Link>
             <Link
-              href="https://github.com/AIMD-UTDallas"
+              href="https://github.com/AIMD-UTD"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -83,7 +83,7 @@ export function SiteFooter() {
               <span className="sr-only">Linktree</span>
             </Link>
             <Link
-              href="#"
+              href="https://discord.com/invite/58B9pgF4a5"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

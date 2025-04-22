@@ -4,6 +4,7 @@ import { Brain, Github, Instagram, Linkedin, MessageSquare, Users } from "lucide
 import Link from "next/link"
 import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
+import logoImage from '../public/images/AIMD.png';
 
 export default function Home() {
   return (
@@ -55,7 +56,7 @@ export default function Home() {
                     <span className="sr-only">Instagram</span>
                   </Link>
                   <Link
-                    href="https://github.com/AIMD-UTDallas"
+                    href="https://github.com/AIMD-UTD"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -83,13 +84,13 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-end pr-0">
                 <div className="relative w-full max-w-[600px] aspect-square purple-glow rounded-full flex items-center justify-center">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/transparent%20background%20AIMD%20logo-9XCZIwM7SyKJKjIQu91kFZExUqaCLw.png"
+                    src={logoImage}
                     alt="AIMD Logo"
-                    width={550}
-                    height={550}
+                    width={590}
+                    height={590}
                     className="object-contain"
                     priority
                   />
