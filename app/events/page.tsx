@@ -3,17 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { Calendar } from "./calendar"
 
-const upcomingEvents = [
-  {
-    id: 1,
-    title: "Presentation Night",
-    date: "2024-04-24",
-    time: "18:00 - 20:00",
-    location: "ECSS 2.415",
-    description:
-      "Join us for our end-of-semester Presentation Night where project teams will showcase their work and achievements.",
-  },
-]
+const upcomingEvents = []
 
 export default function EventsPage() {
   return (

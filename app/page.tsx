@@ -4,7 +4,6 @@ import { Brain, Github, Instagram, Linkedin, MessageSquare, Users } from "lucide
 import Link from "next/link"
 import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
-import logoImage from '../public/images/AIMD.png';
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
             <div className="grid items-center gap-12 md:grid-cols-2">
               <div>
                 <h1 className="mb-6 text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-300">
-                  Bridging AI Innovation with Medical Excellence
+                  Bridging the gap between AI and Medicine
                 </h1>
                 <p className="mb-8 text-lg text-muted-foreground">
                   Empowering the future of healthcare through collaborative innovation and cutting-edge technology
@@ -56,7 +55,7 @@ export default function Home() {
                     <span className="sr-only">Instagram</span>
                   </Link>
                   <Link
-                    href="https://github.com/AIMD-UTD"
+                    href="https://github.com/AIMD-UTDallas"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -84,16 +83,18 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center justify-end pr-0">
-                <div className="relative w-full max-w-[600px] aspect-square purple-glow rounded-full flex items-center justify-center">
-                  <Image
-                    src={logoImage}
-                    alt="AIMD Logo"
-                    width={590}
-                    height={590}
-                    className="object-contain"
-                    priority
-                  />
+              <div className="flex items-center justify-center">
+                <div className="relative w-80 h-80 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] purple-glow rounded-full flex items-center justify-center">
+                  <div className="absolute inset-0 flex items-center justify-center p-2">
+                    <Image
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/transparent%20background%20AIMD%20logo-9XCZIwM7SyKJKjIQu91kFZExUqaCLw.png"
+                      alt="AIMD Logo"
+                      width={600}
+                      height={600}
+                      className="object-contain w-[95%] h-[95%]"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
             </div>

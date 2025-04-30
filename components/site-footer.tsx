@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Instagram, Mail, Youtube, MessageSquare, Linkedin } from "lucide-react"
+import { Github, Instagram, Mail, Linkedin } from "lucide-react"
 
 export function SiteFooter() {
   return (
@@ -56,7 +56,7 @@ export function SiteFooter() {
               <span className="sr-only">Instagram</span>
             </Link>
             <Link
-              href="https://github.com/AIMD-UTD"
+              href="https://github.com/AIMD-UTDallas"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -81,24 +81,6 @@ export function SiteFooter() {
             >
               <div className="w-5 h-5 flex items-center justify-center">🌲</div>
               <span className="sr-only">Linktree</span>
-            </Link>
-            <Link
-              href="https://discord.com/invite/58B9pgF4a5"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <MessageSquare className="w-5 h-5" />
-              <span className="sr-only">Discord</span>
-            </Link>
-            <Link
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Youtube className="w-5 h-5" />
-              <span className="sr-only">YouTube</span>
             </Link>
           </div>
         </div>

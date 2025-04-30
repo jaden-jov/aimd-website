@@ -10,8 +10,8 @@ const teams = [
         name: "Zaina Ali",
         position: "President",
         initials: "ZA",
-        image: "/images/zaina-ali.jpeg",
-        imagePosition: "object-[center_35%] scale-100", // Adjusted positioning for Zaina's image to zoom out
+        image: "/images/zaina-ali-new.png",
+        imagePosition: "object-[center_40%] scale-110", // Centered on face for new image
       },
       {
         name: "Varun Bhupathiraju",
@@ -64,22 +64,22 @@ const teams = [
         name: "Ali Ghorbani",
         position: "Technical",
         initials: "AG",
-        image: "/images/ali-ghorbani.png",
-        imagePosition: "object-[center_55%] scale-100", // Updated positioning for Ali's new image
+        image: "/images/ali-ghorbani.jpeg",
+        imagePosition: "object-[center_30%] scale-100", // Updated positioning for Ali's new image
       },
       {
         name: "Jaden Jovan",
         position: "Technical",
         initials: "JJ",
-        image: "/images/jaden-jovan.jpeg",
-        imagePosition: "object-[center_0%] scale-80", // Zoomed out on Jaden's image
+        image: "/images/jaden-jovan-new.jpeg",
+        imagePosition: "object-[center_35%] scale-110", // Centered on face for new image
       },
       {
         name: "Harshavarthan Mathapti",
         position: "Technical",
         initials: "HM",
         image: "/images/harshavarthan-mathapti.jpeg",
-        imagePosition: "object-[center_top_25%]", // Custom positioning for Harshavarthan's image
+        imagePosition: "object-[center_25%] scale-100", // Custom positioning for Harshavarthan's image
       },
     ],
   },
@@ -91,7 +91,7 @@ const teams = [
         position: "Industry",
         initials: "IG",
         image: "/images/ishayu-gupta.png",
-        imagePosition: "object-[center_30%] scale-100", // Moved Ishayu's face up in the image
+        imagePosition: "object-[center_15%] scale-100", // Moved Ishayu's face up in the image
       },
       {
         name: "Abanish Khadka",
@@ -104,8 +104,8 @@ const teams = [
         name: "Akhil Nelapolu",
         position: "Industry",
         initials: "AN",
-        image: "/images/akhil-nelapolu.jpeg",
-        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Akhil's image
+        image: "/images/ishir-chandra.jpeg", // Switched with Ishir's image
+        imagePosition: "object-[center_30%] scale-100", // Using Ishir's positioning
       },
     ],
   },
@@ -156,8 +156,8 @@ const teams = [
         name: "Ishir Chandra",
         position: "Operations",
         initials: "IC",
-        image: "/images/ishir-chandra.jpeg",
-        imagePosition: "object-[center_30%] scale-100", // Custom positioning for Ishir's image
+        image: "/images/akhil-nelapolu.jpeg", // Switched with Akhil's image
+        imagePosition: "object-[center_30%] scale-100", // Using Akhil's positioning
       },
       {
         name: "Aamir Khan",

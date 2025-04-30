@@ -92,7 +92,7 @@ export default function ApplyPage() {
                   </span>
                 </Link>
                 <Link
-                  href="https://github.com/AIMD-UTD"
+                  href="https://github.com/AIMD-UTDallas"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center group"
