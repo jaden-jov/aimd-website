@@ -1,20 +1,9 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', // required for GitHub Pages (static build)
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "v0.blob.com",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "hebbkx1anhila5yf.public.blob.vercel-storage.com",
-        pathname: "/**",
-      },
-    ],
-    unoptimized: true,
+    unoptimized: true, // disable Next.js optimization, serve raw <img> tags
   },
   eslint: {
     ignoreDuringBuilds: true,
@@ -22,6 +11,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
