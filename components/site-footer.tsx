@@ -10,7 +10,7 @@ export function SiteFooter() {
           <Link href="/" className="text-2xl font-bold text-primary">
             AIMD
           </Link>
-          <p className="text-sm text-muted-foreground">Bridging AI Innovation with Medical Excellence at UT Dallas</p>
+          <p className="text-sm text-muted-foreground">Bridging AI Innovation with Medicine at UT Dallas</p>
         </div>
 
         {/* Quick Links */}
@@ -79,7 +79,7 @@ export function SiteFooter() {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <div className="w-5 h-5 flex items-center justify-center">🌲</div>
+              <div className="w-5 h-5 flex items-center justify-center">𖣂</div>
               <span className="sr-only">Linktree</span>
             </Link>
           </div>
