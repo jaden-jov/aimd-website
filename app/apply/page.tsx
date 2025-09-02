@@ -81,6 +81,9 @@ export default function ApplyPage() {
                 </p>
               </div>
 
+              <div className="border-t border-primary/10 pt-6"></div>
+
+
             </CardContent>
           </Card>
 

@@ -89,8 +89,8 @@ export default function Home() {
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/transparent%20background%20AIMD%20logo-9XCZIwM7SyKJKjIQu91kFZExUqaCLw.png"
                       alt="AIMD Logo"
-                      width={900}
-                      height={900}
+                      width={1500}
+                      height={1500}
                       className="object-contain w-[95%] h-[95%]"
                       priority
                     />
