@@ -48,14 +48,14 @@ export default function AboutPage() {
               </div>
             </div>
             <h1 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-300">
-              About AI MD Club
+              About AIMD Club
             </h1>
           </div>
           <Card className="bg-background/50 backdrop-blur border-primary/20 purple-glow">
             <CardContent className="p-6">
               <p className="text-lg text-center leading-relaxed">
-                Welcome to the future of medicine and technology! The AI MD Club at UT Dallas is here to revolutionize
-                healthcare with cutting-edge technology. Join us on this exciting journey as we explore the limitless
+                Welcome to the future of medicine and technology! The AIMD Club at UT Dallas is here to revolutionize
+                healthcare with cutting-edge technology. Join us on this exciting journey as we bridge the gap between the limitless
                 possibilities of artificial intelligence, ML, and other technology in medicine.
               </p>
             </CardContent>
@@ -75,8 +75,8 @@ export default function AboutPage() {
               <CardContent>
                 <p className="text-muted-foreground">
                   Our projects division focuses on hands-on application of AI and ML in medical contexts. Members
-                  collaborate on innovative projects that bridge the gap between theoretical knowledge and practical
-                  implementation in healthcare.
+                  collaborate on innovative semester-long projects that bridge the gap between modern AI technology and practical
+                  healthcare needs.
                 </p>
               </CardContent>
             </Card>
@@ -84,14 +84,14 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="flex items-center text-primary">
                   <Beaker className="mr-2" />
-                  AIMD Research
+                  AIMD Apply
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  The research division delves deep into cutting-edge AI and ML techniques applicable to medicine.
-                  Members engage in literature reviews, conduct experiments, and contribute to the growing body of
-                  knowledge in AI-driven healthcare solutions.
+                  AIMD Apply offers hands-on experience through sponsored AIMD projects. Students collaborate with UTD and UTSW
+                  research labs and companies, gain industry mentorship, and deliver real-world solutions that drive innovation in
+                  healthcare while building professional impact.
                 </p>
               </CardContent>
             </Card>
@@ -102,7 +102,7 @@ export default function AboutPage() {
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4 text-primary">Join Us in Shaping the Future of Healthcare</h2>
             <p className="text-muted-foreground mb-6">
-              Whether you're passionate about AI, medicine, or both, there's a place for you in the AI MD Club.
+              Whether you're passionate about AI, medicine, or both, there's a place for you in the AIMD Club.
             </p>
             <Link href="/apply">
               <Button size="lg" className="bg-primary hover:bg-primary/90">

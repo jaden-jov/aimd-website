@@ -3,7 +3,24 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { Calendar } from "./calendar"
 
-const upcomingEvents = []
+const upcomingEvents = [
+  {
+    id: 1,
+    title: "AIMD Kickoff",
+    date: "2025-09-02",
+    time: "7:30 PM",
+    location: "SCI 1.210",
+    description: "Kickoff!"
+  },
+  {
+    id: 2,
+    title: "AIMD Case Competition",
+    date: "TBD",
+    time: "TBD",
+    location: "TBD",
+    description: "TBD"
+  }
+]
 
 export default function EventsPage() {
   return (
