@@ -38,7 +38,7 @@ export default function ApplyPage() {
               Applications Are Open !
             </h1>
             <p className="text-muted-foreground text-lg">
-              Thank you for your interest in joining AIMD. Applications are currently closed.
+              Thank you for your interest in joining AIMD!
             </p>
           </div>
 
@@ -54,8 +54,8 @@ export default function ApplyPage() {
                 <Calendar className="h-16 w-16 text-primary" />
                 <h2 className="text-2xl font-bold text-primary">AIMD Projects Fall 2025</h2>
                 <p className="text-muted-foreground">
-                  Applications for AIMD Projects will open in Fall 2025. Follow our social media channels for updates on
-                  application deadlines and requirements.
+                  Applications for AIMD Project Leads are now open. Follow our social media channels for updates on
+                  application deadlines and requirements. AIMD Project Developer applications will open 9/10.
                 </p>
               </div>
 
@@ -63,12 +63,24 @@ export default function ApplyPage() {
 
               <div className="flex flex-col items-center text-center space-y-4">
                 <Calendar className="h-16 w-16 text-primary" />
-                <h2 className="text-2xl font-bold text-primary">AIMD Research Fall 2025</h2>
+                <h2 className="text-2xl font-bold text-primary">AIMD Apply Fall 2025</h2>
                 <p className="text-muted-foreground">
-                  AIMD Research applications will also open in Fall 2025. Stay connected with us to learn about exciting
+                  AIMD Apply applications will open 9/5. Stay connected with us to learn about exciting
                   research opportunities at the intersection of AI and medicine.
                 </p>
               </div>
+
+              <div className="border-t border-primary/10 pt-6"></div>
+
+
+              <div className="flex flex-col items-center text-center space-y-4">
+                <Calendar className="h-16 w-16 text-primary" />
+                <h2 className="text-2xl font-bold text-primary">AIMD Officers Fall 2025</h2>
+                <p className="text-muted-foreground">
+                  AIMD Officer applications are now open.
+                </p>
+              </div>
+
             </CardContent>
           </Card>
 
