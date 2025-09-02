@@ -35,7 +35,7 @@ export default function ApplyPage() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-300">
-              Applications Closed
+              Applications Are Open !
             </h1>
             <p className="text-muted-foreground text-lg">
               Thank you for your interest in joining AIMD. Applications are currently closed.
@@ -124,7 +124,7 @@ export default function ApplyPage() {
                   className="flex flex-col items-center group"
                 >
                   <div className="p-3 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                    <div className="h-6 w-6 flex items-center justify-center text-primary font-bold">🌲</div>
+                    <div className="h-6 w-6 flex items-center justify-center text-primary font-bold">𖣂</div>
                   </div>
                   <span className="mt-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
                     Linktree

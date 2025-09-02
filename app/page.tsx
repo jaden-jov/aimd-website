@@ -39,7 +39,7 @@ export default function Home() {
             <div className="grid items-center gap-12 md:grid-cols-2">
               <div>
                 <h1 className="mb-6 text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-300">
-                  Bridging the gap between AI and Medicine
+                  Bridging the Gap Between AI and Medicine
                 </h1>
                 <p className="mb-8 text-lg text-muted-foreground">
                   Empowering the future of healthcare through collaborative innovation and cutting-edge technology
@@ -78,7 +78,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    <div className="w-6 h-6 flex items-center justify-center font-bold">🌲</div>
+                    <div className="w-6 h-6 flex items-center justify-center font-bold">𖣂</div>
                     <span className="sr-only">Linktree</span>
                   </Link>
                 </div>
@@ -89,8 +89,8 @@ export default function Home() {
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/transparent%20background%20AIMD%20logo-9XCZIwM7SyKJKjIQu91kFZExUqaCLw.png"
                       alt="AIMD Logo"
-                      width={600}
-                      height={600}
+                      width={900}
+                      height={900}
                       className="object-contain w-[95%] h-[95%]"
                       priority
                     />
