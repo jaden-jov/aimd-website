@@ -54,8 +54,8 @@ export default function ApplyPage() {
                 <Calendar className="h-16 w-16 text-primary" />
                 <h2 className="text-2xl font-bold text-primary">AIMD Projects Fall 2025</h2>
                 <p className="text-muted-foreground">
-                  Applications for AIMD Project Developers are now open until 9/15. Apply <a class="font-bold outline-white
-                    " href="https://coda.io/form/AIMD-Project-Developer-Application-Fall-2025_dnPMknp5xWW">HERE</a> </p>
+                  Applications for AIMD Project Developers are now open until 9/16. Apply <a class="font-bold text-white underline" href="https://coda.io/form/AIMD-Project-Developer-Application-Fall-2025_dnPMknp5xWW">HERE</a>
+                </p>
                 <p className="text-muted-foreground">Follow our social media channels for updates on
                   application deadlines and requirements.
                 </p>
@@ -78,7 +78,7 @@ export default function ApplyPage() {
                 <Calendar className="h-16 w-16 text-primary" />
                 <h2 className="text-2xl font-bold text-primary">AIMD Officers Fall 2025</h2>
                 <p className="text-muted-foreground">
-                  AIMD Officer applications are now open.
+                  AIMD Officer applications are now closed.
                 </p>
               </div>
 
