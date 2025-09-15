@@ -67,8 +67,7 @@ export default function ApplyPage() {
                 <Calendar className="h-16 w-16 text-primary" />
                 <h2 className="text-2xl font-bold text-primary">AIMD Apply Fall 2025</h2>
                 <p className="text-muted-foreground">
-                  AIMD Apply applications will open soon. Stay connected with us to learn about exciting
-                  research opportunities at the intersection of AI and medicine.
+                  AIMD Apply applications are now open. Apply <a className="font-bold text-white underline" href="https://forms.gle/uYKpwxTEnvJSr8QT8">HERE</a>
                 </p>
               </div>
 
